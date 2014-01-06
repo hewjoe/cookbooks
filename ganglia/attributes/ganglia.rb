@@ -1,0 +1,9 @@
+default[:ganglia][:version] = "3.6.0"
+default[:ganglia][:webversion] = "3.5.11"
+default[:ganglia][:uri] = "http://downloads.sourceforge.net/project/ganglia/ganglia%20monitoring%20core/3.6.0/ganglia-3.6.0.tar.gz"
+default[:ganglia][:weburi] = "http://downloads.sourceforge.net/project/ganglia/ganglia-web/3.5.11/ganglia-web-3.5.11.tar.gz"
+default[:ganglia][:checksum] = "89eae02e1a11"
+default[:ganglia][:webchecksum] = "5c0531d3f48c"
+default[:ganglia][:cluster_name] = "JoeCluster"
+default[:ganglia][:unicast] = true
+default[:ganglia][:server_role] = "ganglia"

@@ -1,0 +1,7 @@
+<% if @thost %>
+udp_send_channel { 
+  host = <%= @thost %>
+  port = 8649
+  ttl = 1
+}
+<% end %>
